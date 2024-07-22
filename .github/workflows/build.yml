@@ -56,7 +56,7 @@ jobs:
 
       shell: bash
 
-      run:|
+      run: |
 
         if [[ "${{ runner.os }}" == "Linux" ]] ; then
 
